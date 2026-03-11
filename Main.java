@@ -33,9 +33,9 @@ public class Main {
         firstQueue.add(j);
      }
     
-    Iterator iterator = firstQueue.iterator();
-    Iterator secondIterator = secondQueue.iterator();
-    Iterator accIterator = accQueue.iterator();
+    Iterator<Integer> iterator = firstQueue.iterator();
+    Iterator<Integer> secondIterator = secondQueue.iterator();
+    Iterator<Integer> accIterator = accQueue.iterator();
 
     while (iterator.hasNext()) {
         int currentAgeCheck = firstQueue.poll();
